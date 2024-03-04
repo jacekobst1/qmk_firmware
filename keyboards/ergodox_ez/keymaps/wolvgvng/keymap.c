@@ -370,7 +370,6 @@ tap_dance_action_t tap_dance_actions[] = {
 
 bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-        case LT(1,KC_SPACE):
         case LT(2,KC_TAB):
         case LT(4,KC_ENTER):
         case LT(3,KC_BSPC):
