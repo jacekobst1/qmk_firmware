@@ -40,9 +40,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [2] = LAYOUT_ergodox_pretty(
     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,
-    KC_TRANSPARENT, LALT(LCTL(KC_LEFT)),LGUI(KC_7),     LGUI(KC_8),     LGUI(KC_9),     LALT(LCTL(KC_RIGHT)),KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT,
-    KC_TRANSPARENT, LALT(LCTL(LSFT(KC_LEFT))),LGUI(KC_4),     LGUI(KC_5),     TD(DANCE_3),    LALT(LCTL(LSFT(KC_RIGHT))),                                                                KC_NO,          LCTL(LSFT(KC_TAB)),LALT(KC_RIGHT), LALT(KC_LEFT),  LCTL(KC_TAB),   KC_TRANSPARENT,
-    KC_TRANSPARENT, LGUI(LSFT(KC_LEFT)),LGUI(KC_1),     LGUI(KC_2),     LGUI(KC_3),     LGUI(LSFT(KC_RIGHT)),KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT,
+    KC_TRANSPARENT, LGUI(LSFT(KC_LEFT)),LGUI(KC_7),     LGUI(KC_8),     LGUI(KC_9),     LGUI(LSFT(KC_RIGHT)),KC_TRANSPARENT,                        KC_TRANSPARENT, KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT,
+    KC_TRANSPARENT, LALT(LCTL(KC_LEFT)),LGUI(KC_4),     LGUI(KC_5),     TD(DANCE_3),    LALT(LCTL(KC_RIGHT)),                                                       KC_NO,          LCTL(LSFT(KC_TAB)),LALT(KC_RIGHT), LALT(KC_LEFT),  LCTL(KC_TAB),   KC_TRANSPARENT,
+    KC_TRANSPARENT, LALT(LCTL(LSFT(KC_LEFT))),LGUI(KC_1),     LGUI(KC_2),     LGUI(KC_3),     LALT(LCTL(LSFT(KC_RIGHT))),KC_TRANSPARENT,            KC_TRANSPARENT, KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT,
     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                                                                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,
                                                                                                     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,
                                                                                                                     KC_TRANSPARENT, KC_TRANSPARENT,
